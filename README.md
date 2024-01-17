@@ -9,3 +9,4 @@
 - `:terminal`: opens a terminal
 - `<C-\> <C-o>`: exit terminal mode
 - `<SHIFT-v>`: selects the entire line
+- `<space> j`: sends code/output to the bottom window
