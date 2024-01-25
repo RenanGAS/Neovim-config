@@ -42,4 +42,5 @@ return require('packer').startup(function(use)
 	  }
   }	
   use { "karoliskoncevicius/vim-sendtowindow" }
+  use { "luk400/vim-jukit" }
 end)
