@@ -1,5 +1,18 @@
 # Neovim-config
 
+## Plugins
+
+- telescope.nvim
+- nvim-treesitter
+- harpoon
+- vim-fugitive
+- vim-sendtowindow
+- vim-jukit
+
+## Linguagens suportadas
+
+- Java, Kotlin, TypeScript e Rust.
+
 ## Novos comandos
 
 - `:so` or `:source`: para salvar mudanças na configuração
