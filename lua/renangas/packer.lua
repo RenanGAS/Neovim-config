@@ -25,6 +25,12 @@ return require('packer').startup(function(use)
   use('tpope/vim-fugitive')
   use { "williamboman/mason.nvim", "williamboman/mason-lspconfig.nvim", "neovim/nvim-lspconfig" }
   use { "mfussenegger/nvim-jdtls" }
+  use { "pappasam/jedi-language-server" }
+  use({
+      "iamcco/markdown-preview.nvim",
+      run = function() vim.fn["mkdp#util#install"]() end,
+  })
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
