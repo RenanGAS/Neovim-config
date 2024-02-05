@@ -8,10 +8,11 @@
 - vim-fugitive
 - vim-sendtowindow
 - vim-jukit
+- markdown-preview.nvim
 
 ## Linguagens suportadas
 
-- Java, Kotlin, TypeScript e Rust.
+- Java, Kotlin, TypeScript, Rust e Python.
 
 ## Novos comandos
 
