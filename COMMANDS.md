@@ -18,6 +18,17 @@
 - `<C-\\><C-n>`: para sair do modo terminal
 - `<C-o>`: volta para estado anterior
 - `<C-]>`: vai para definição de função ou origem de arquivo
+- `a`: entra no modo Insert com cursos pra direita
+- `<leader>fb`: abre telescope browser
+- `<C-v>`: entra no modo Visual Block para usar Insert em múltiplas linhas
+- `w/b`: move para próxima/anterior palavra
+- `<A-d>`: mostra erro detectado pela LSP
+- `%`: vai para vim de marcadores '(' e '['
+- `<A-F>`: formata arquivo
+- `cgn`: substitui palavra selecionada para substituições seguintes
+- `<C-e>`: mostra lista do harpoon
+- `<leader>a`: adiciona arquivo no harpoon
+- `<C-k>/<C-j>`: move entre arquivos no harpoon
 
 #### Cmd
 
