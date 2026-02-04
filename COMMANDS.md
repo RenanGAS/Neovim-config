@@ -29,6 +29,10 @@
 - `<C-e>`: mostra lista do harpoon
 - `<leader>a`: adiciona arquivo no harpoon
 - `<C-k>/<C-j>`: move entre arquivos no harpoon
+- `<C-w> H/J/K/L`: move janela para os lados
+- `zz`: centraliza janela na posição do cursor
+- `<leader>Rs`: executa http request com Kolala
+- `<leader>sr`: habilita scroll com tamanho 5 na janela
 
 #### Cmd
 
@@ -37,6 +41,8 @@
 - `:so` or `:source`: para salvar mudanças em um arquivo de configuração
 - `:PackerSync`: para instalar/atualizar pacotes recém adicionados com o comando `:so`
 - `:terminal`: para abrir um terminal
+- `:ls`: lista buffers (janelas) abertos
+- `:bd! <num>`: remove buffer
 
 ## Remaps
 
